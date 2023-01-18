@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `RouteSonar`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `http://170.187.226.247`,
   },
   plugins: [
     `gatsby-plugin-sass`,
