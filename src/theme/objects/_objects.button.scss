@@ -1,0 +1,27 @@
+.rs-btn {
+    border: none;
+    &--sm {
+        border-radius: 4px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    &--lg {
+        border-radius: 4px;
+        color: #FFF;
+        padding: 16px;
+        min-width: 7.5rem;
+    }
+    &--primary {
+        background-color: #363636;
+    }
+    &--primary-variant {
+        background-color: #4362ff;
+    }
+
+    &__icon {
+        margin-left: 1rem;
+        opacity: 0.8;
+    }
+}

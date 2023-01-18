@@ -1,0 +1,25 @@
+#rsFooter {
+    background-color: #f4f2ec;
+    color: #000;
+}
+
+.rs-footer {
+    &__sm-icon {
+        width: 32px;
+        margin-left: 1rem;
+    }
+    &__inner {
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rs-footer {
+      &__inner {
+        flex-direction: column;
+        > small {
+            margin: 1.5rem 0;
+        }
+      }
+    }
+  }

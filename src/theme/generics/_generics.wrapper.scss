@@ -1,0 +1,107 @@
+// layout styles
+
+main {
+    animation: slide-down 1.2s forwards;
+}
+
+.rs-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rs-section-w {
+    max-width: 1450px;
+    &--pad{
+        padding: 4rem 2rem;
+    }
+    &--rounded {
+        border-radius: 32px;
+    }
+    &--grey-bg {
+        background-color: #fcf6ff;
+    }
+}
+
+@media screen and (min-width: 987px) {
+    .rs-section-w {
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #rsSummary.rs-section-w {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .rs-section-wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .rs-section-wrapper:not(.rs-header, .rs-sus, .rs-summary) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    .rs-section-wrapper {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .rs-section-wrapper.rs-summary {
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 987px) {
+    .rs-section-wrapper {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 988px) and (max-width: 1199px) {
+    .rs-section-wrapper:not(.rs-header, .rs-sus) {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .rs-section-wrapper {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .rs-section-wrapper:not(.rs-header, .rs-sus, .rs-summary) {
+        padding-top: 8rem;
+        padding-bottom: 6rem;
+    }
+}
+
+// responsive
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: unset;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: unset;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}

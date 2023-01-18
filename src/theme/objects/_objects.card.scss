@@ -1,0 +1,77 @@
+.rs-card {
+    border: 1px solid #111;
+    border-radius: 12px;
+    padding: 3rem 1rem 1.5rem 1rem;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    &__list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    &__list-item {
+        padding: 0.4rem;
+        display: flex;
+        align-items: center;
+        > img {
+            width: 24px;
+            margin-right: 1rem;
+        }
+    }
+    &__img-wrapper {
+        height: 40%;
+    }
+    &__img {
+        width: 65%;
+        object-fit: cover;
+    }
+}
+
+.rs-pricing-card {
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    background: #f8f9fa;
+    padding: 2rem;
+    padding-bottom: 120px;
+    margin-bottom: 2rem;
+    margin-right: 24px;
+    position: relative;
+    will-change: background;
+    -webkit-transition: background .1s;
+    transition: background .1s;
+    max-height: 380px;
+}
+
+@media screen and (max-width: 600px) {
+    .rs-card {
+        height: 24rem;
+        &__img {
+            width: 55%;
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .rs-card-wrapper {
+        padding: 0 0.8rem;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 720px) {
+    .rs-card-wrapper {
+        padding: 0 0.8rem;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        > div {
+            flex: 0 0 50vw;
+        }
+    }
+}

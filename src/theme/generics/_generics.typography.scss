@@ -1,0 +1,53 @@
+body {
+    font-family: inter, 'Sofia Pro', sans-serif;
+    color: #050037;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+h2 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+h3{
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+}
+h4 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+}
+h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+h6 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+p {
+    line-height: 1.3rem;
+    color: rgb(102, 112, 133);
+    white-space: initial;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        text-align: center;
+        margin: 1rem 0 2.5rem;
+    }
+}
+
+.rs-grey-txt {
+    color: #808080;
+}

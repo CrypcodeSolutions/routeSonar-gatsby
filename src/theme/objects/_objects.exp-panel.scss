@@ -1,0 +1,14 @@
+.rs-exp {
+    border-bottom: 1px solid #d4d4d4;
+    &__header {
+        cursor: pointer;
+        padding: 2rem 0;
+    }
+    &__icon {
+        color: #4362ff;
+        margin-left: 1rem;
+    }
+    &__details {
+        color:rgb(102, 112, 133);
+    }
+}

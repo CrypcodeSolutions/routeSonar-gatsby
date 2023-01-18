@@ -1,0 +1,46 @@
+.rs-featured {
+    &__logo {
+        width: 16%;
+        margin-right: 2rem;
+    }
+}
+
+.rs-features {
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+    &__inner-wrapper {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .rs-features-pw {
+        &__right {
+            flex: 0 0 740px;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1799px) {
+    .rs-features-pw {
+        &__right {
+            flex: 0 0 750px;
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .rs-features-pw {
+        &__right {
+            flex: 0 0 750px;
+        }
+    }
+}
+
+@media screen and (min-width: 1266px) {
+    .rs-features-pw {
+        display: flex;
+    }
+}
